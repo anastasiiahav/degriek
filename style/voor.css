@@ -1,0 +1,758 @@
+/* Algemeen */
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	transition: all 1s;
+}
+
+/* Navigatie */
+#navigation {
+	background-color: white !important;
+}
+
+.navbar-default {
+    transition: all 1s;
+}
+
+li {
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-right: 30px;
+	margin-left: 30px;
+	letter-spacing: 1px;
+}
+
+li:hover, li.active {
+	color: black !important;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+.dropdown-menu {
+	border: none;
+	border-radius: 0;
+}	
+
+.navbar-dark .navbar-nav .nav-link {
+	color: black !important;
+	font-weight: normal;
+}
+
+.navbar-toggler {
+	background-color: transparent !important;
+}
+
+/* Carousel text */
+div.car {
+	z-index: 20;
+	margin-top: 62%;
+	margin-left: 4%;
+	position: fixed;
+}
+
+/* Buttons */
+button.butban {
+	text-transform: uppercase;
+	width: 300px;
+	height: 45px;
+	margin-left: 20px;
+	margin-top: 20px;
+	-webkit-animation-delay: 2.5s;
+}
+
+.btn {
+	border-radius: 0;
+	color: black;
+	border: none;
+	background-color: white;
+	font-size: 16px;
+	transition: all 1s;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+	letter-spacing: 2px;
+	-webkit-transition: all .8s ease-in-out;  
+	border: none;
+}
+
+.btn-outline-light {
+	border: 3px solid white !important;
+	background-color: transparent;
+	color: white;
+}
+
+.navbar-toggler {
+	border: none;
+	color: white;
+	background-color: rgb(255, 255, 255, 0.3);
+	border-radius: 0;
+}
+
+/* Banners */
+.banner {
+	margin-top: -200px;
+}
+
+img.ban {
+	visibility: hidden;
+}
+
+img.bansm {
+	visibility: visible;
+}
+
+img.banmain {
+	visibility: visible;
+}
+
+/* Keuken en dranken */
+div.keuken, div.dranken {
+	padding-left: 30px;
+}
+
+div.keuken {
+	padding-top: 60px;
+} 
+
+div.dranken {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+hr {
+	width: 200px;
+	border-top: 1px solid black;
+	margin-left: 0;
+}
+
+/* Tekst */
+h1, h2 {
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+h1 {
+	font-size: 31px;
+	text-transform: uppercase;
+	-webkit-animation-delay: 0.3s;
+}
+
+h2 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: 'Source Serif Pro', serif;
+	-webkit-animation-delay: 2.1s;
+}
+
+h3 {
+	margin-bottom: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p.about {
+	margin-top: 50px;
+	margin-bottom: -23px;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: 'Source Serif Pro', serif;
+	padding-right: 10px;
+}
+
+p.bout {
+	padding-bottom: 80px;
+}
+
+p.soep {
+	padding-bottom: 20px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+/* Footer */
+div.foot {
+	background-image: url('foot.jpg');
+	height: 650px;
+	margin-right: 0px;
+}
+
+.textfoot {
+	color: white;
+}
+
+.upp {
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.it {
+	letter-spacing: 0.5px;
+}
+
+.titel {
+	letter-spacing: 0.5px;
+}
+
+.korting {
+	width: 250px;
+	background-image: url('pat.png');
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.it, .di {
+	margin-bottom: 0;
+}
+
+.foot {
+	padding-top: 100px;
+}
+
+.kort {
+	margin-right: 10px;
+}
+
+.adres {
+	margin-top: -25px;
+	margin-bottom: 30px;
+}
+
+.tijden {
+	margin-bottom: 30px;
+}
+
+.footitem {
+	margin-left: 60px;
+}
+
+.niet {
+	font-size: 12px;
+}
+
+.park {
+	margin-bottom: 20px;
+}
+
+/* Soldaat van Oranje */
+.oranje {
+	background-color: #eaecef;
+}
+	
+.soldaat {
+	padding: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.bel {
+	margin-bottom: 30px;
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+.map {
+	height: 300px;
+}
+
+.tele {
+	width: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+a.phone {
+	color: black;
+}
+
+a.phone:hover {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+	/* Tekst*/
+	h1 {
+		font-size: 50px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	h3 {
+		font-size: 35px;
+	}
+
+	p.about {
+		font-size: 20px;
+		padding-bottom: 20px;
+		padding-right: 70px;
+	}
+
+	/* Buttons */
+	button.butban {
+		width: 390px;
+		height: 45px;
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+
+	.btn {
+		font-size: 18px;
+	}
+
+	/* Carousel text */
+	div.car {
+		margin-left: 40px;
+	}
+
+	/* Banner */
+	img.banmain {
+		height: 100vh;
+		width: 100%;
+	}
+
+	.bansm {
+		height: 100vh;
+		width: 100%;
+	}
+
+	/* Keuken */
+	div.keuken {
+		padding-top: 80px;
+		padding-left: 70px;
+	}
+
+	/* Footer */
+	.footitem {
+		margin-left: 22%;
+		margin-right: 22%;
+	}
+}
+
+@media only screen and (min-width: 760px) {
+	/* Carousel text */
+	div.car {
+		margin-top: 45%;
+		margin-left: 15%;
+	}
+
+	/* Soldaat */
+	div.soldaat {
+		padding-top: 100px;
+		padding-bottom: 120px;
+	}
+
+	/* Keuken */
+	div.keuken {
+		padding-left: 150px;
+		padding-right: 100px;
+	}
+} 
+
+@media only screen and (min-width: 900px) {
+	/* Carousel text */
+	div.car {
+		margin-top: 40%;
+		margin-left: 15%;
+	}
+
+	/* Banners */
+	img.ban {
+		visibility: visible;
+	}
+
+	img.bansm {
+		visibility: hidden;
+		height: 0px;
+	}
+
+	.banmain {
+		height: 100vh;
+		width: 100%;
+	}
+
+	/* Tekst */
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	p.mid {
+		padding-bottom: 300px;
+	}
+
+	p.soep {
+		padding-bottom: 100px;
+	}
+
+	p.about {
+		font-size: 20px;
+	}
+
+	p.dakos {
+		padding-bottom: 260px;
+	}
+
+	/* Buttons */
+	button.butban {
+		width: 440px;
+	}
+
+	.knoppen {
+		margin-left: 40px;
+	}
+
+	/* Keuken & dranken */
+	div.keuken {
+		padding-top: 90px;
+		padding-left: 150px;
+		padding-right: 140px;
+
+	}
+
+	/* Soldaat */
+	.soldaat {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	/* Footer */
+	.footitem {
+		margin-left: 180px;
+		margin-top: 20px;
+	}
+
+	.foot {
+		padding-top: 50px;
+	}
+
+	.korting {
+		width: 250px;
+		background-image: url('pat.png');
+		background-repeat: no-repeat;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+@media only screen and (min-width: 1020px) {
+	/* Carousel text*/
+	div.car {
+		margin-top: 36%;
+		margin-left: 22%;
+	}
+
+	/* Buttons */
+	.knoppen {
+		margin-left: -10px;
+		margin-right: 0px;
+	}
+
+	button.butban {
+		width: 490px;
+	}
+
+	/* Footer */
+	div.foot {
+		height: 370px;
+	}
+
+	div.footitem {
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 40px;
+	}
+
+	/* Tekst */
+	p.about {
+		font-size: 18px;
+	}
+
+	/* Keuken */
+	div.keuken {
+		padding-left: 80px;
+		padding-right: 40px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	/* Navigatie */
+	.navbar-default {
+    	transition: all 1s;
+	}
+
+	li {
+		text-transform: uppercase;
+		font-weight: normal;
+		margin-right: 15px;
+		margin-left: 15px;
+		letter-spacing: 1px;
+	}
+
+	li:hover, li.active {
+		color: white !important;
+		font-weight: 800;
+		border-bottom: 2px solid #4286f4;
+		letter-spacing: 1px;
+	}
+
+	.dropdown-menu {
+		border: none;
+		border-radius: 0;
+	}	
+
+	.navbar-dark .navbar-nav .nav-link {
+		color: white !important;
+		font-weight: normal;
+	}
+
+	#navigation {
+		padding-top: 10px;
+		background-color: white !important;
+	}
+
+	/* Banner afbeelding */
+	.banner {
+		margin-top: 0;
+	}
+
+	img.ban {
+		visibility: visible;
+		filter: gray;
+		-webkit-filter: grayscale(1);
+		-webkit-transition: all .8s ease-in-out;  
+	}
+
+	img.ban:hover {
+		filter: none;
+		-webkit-filter: grayscale(0);
+		-webkit-transform: scale(1.01);
+	}
+
+	img.bansm {
+		visibility: hidden;
+		height: 0px;
+	}
+
+	img.banmain {
+		visibility: hidden;
+		height: 0px;
+	}
+
+	/* Carousel */
+	div.car {
+		z-index: 20;
+		margin-top: 30%;
+		margin-left: 21%;
+		position: fixed;
+	}
+
+	div.carousel {
+		margin-top: -24px;
+	}
+
+	/* Buttons */
+	button.butban {
+		text-transform: uppercase;
+		width: 260px;
+		height: 45px;
+		margin-left: 50px;
+		margin-top: 30px;
+	}
+
+	.btn {
+		border-radius: 0;
+		color: black;
+		border: none;
+		background-color: white;
+		font-size: 17px;
+		transition: all 1s;
+	}
+
+	.btn:hover {
+		background-color: white;
+		color: black;
+		letter-spacing: 2px;
+		-webkit-transition: all .8s ease-in-out;  
+		border: none;
+	}
+
+	.btn-outline-light {
+		border: 3px solid white !important;
+		background-color: transparent;
+		color: white;
+	}
+
+	.knoppen {
+		margin-left: -10px;
+	}
+
+	/* Keuken */
+	div.keuken {
+		padding-top: 130px;
+		padding-left: 60px;
+		padding-right: 50px;
+	}
+
+	hr {
+		width: 500px;
+		border-top: 1px solid black;
+		margin-left: 0;
+	}
+
+	/* Tekst */
+	h1, h2 {
+		color: white;
+		text-shadow: 1px 1px black;
+	}
+
+	h1 {
+		font-size: 66px;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		font-size: 33px;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		margin-bottom: 70px;
+		font-size: 40px;
+		font-weight: bold;
+	}
+
+	p.about {
+		margin-top: 70px;
+		margin-bottom: -200px;
+		font-size: 19px;
+		font-weight: normal;
+	}
+
+	p.soep {
+		margin-bottom: 20px;
+	}
+
+	p.or {
+		margin-bottom: 150px;
+	}
+
+	/* Footer */
+	img.rest {
+		height: 100vh;
+	}
+
+	div.foot {
+		background-image: url('foot.jpg');
+		height: 430px;
+	}
+
+	.textfoot {
+		color: white;
+	}
+
+	.upp {
+		text-transform: uppercase;
+		margin-bottom: 0;
+	}
+
+	.it {
+		letter-spacing: 0.5px;
+	}
+
+	.titel {
+		letter-spacing: 0.5px;
+	}
+
+	.korting {
+		background-image: url('pat.png');
+		background-repeat: no-repeat;
+		padding-left: 30px;
+		padding-right: 0;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.it, .di {
+		margin-bottom: 0;
+	}
+
+	.foot {
+		padding-top: 100px;
+	}
+
+	.kort {
+		margin-right: 40px;
+	}
+
+	.footitem {
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 20px;
+	}
+
+	/* Soldaat van Oranje */
+	.oranje {
+		background-color: #eaecef;
+	}
+	
+	.soldaat {
+		padding: 50px;
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+
+	.map {
+		height: 400px;
+	}
+
+	.tele {
+		width: 19px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+	a.phone {
+		color: black;
+	}
+
+	a.phone:hover {
+		color: black;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.bel {
+		margin-top: -150px;
+		font-size: 25px;
+	}
+
+}
+@media only screen and (min-width: 1600px) {
+	/* Carousel */
+	div.car {
+		margin-top: 23%;
+		margin-left: 28%;
+		position: fixed;
+	}
+
+	h2 {
+		font-family: Source Serif Pro;
+		font-size: 34px;
+	}
+}
+
